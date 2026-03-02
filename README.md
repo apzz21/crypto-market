@@ -1,4 +1,5 @@
 Crypto Market Overview
+
 A responsive crypto market dashboard that displays live cryptocurrency data with search and watchlist functionality.
 This project was built as part of a Frontend Assignment and developed iteratively across three levels.
 
@@ -7,7 +8,7 @@ Deployed Link:
   https://crypto-market-steel.vercel.app/
 
 GitHub Repository:
-https://github.com/apzz21/crypto-market
+  https://github.com/apzz21/crypto-market
 
 Features
 
@@ -63,7 +64,9 @@ Explanation:
 • style.css → Custom styling to match Figma design
 • script.js → Handles API calls, search, watchlist, auto-refresh logic
 • README.md → Project documentation
+
 Data Flow / Architecture
+
 • On page load:
 • Fetch top cryptocurrencies from CoinGecko API
 • Load watchlist from localStorage
@@ -76,7 +79,9 @@ Data Flow / Architecture
 • Watchlist:
 • Selected coins are stored in localStorage
 • Rendered separately in Watchlist section
+
 The architecture is simple and modular:
+
 • API handling logic separated from rendering logic
 • Watchlist logic separated from market rendering
 • State stored locally using localStorage
@@ -98,7 +103,6 @@ Responsiveness
 The layout is built using Flexbox and is responsive across:
 • Desktop
 • Tablet
-• Mobile devices
 
 Error Handling
 
